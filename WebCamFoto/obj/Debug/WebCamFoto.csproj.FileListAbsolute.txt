@@ -14,3 +14,16 @@ D:\Projects\C#\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csproj.CoreCompileInpu
 D:\Projects\C#\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csproj.CopyComplete
 D:\Projects\C#\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.exe
 D:\Projects\C#\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.pdb
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\bin\Debug\WebCamFoto.exe
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\bin\Debug\WebCamFoto.pdb
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\bin\Debug\AForge.xml
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\bin\Debug\AForge.Video.xml
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\bin\Debug\AForge.Video.DirectShow.xml
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csprojAssemblyReference.cache
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.FormWebCam.resources
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.Properties.Resources.resources
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csproj.GenerateResource.cache
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csproj.CoreCompileInputs.cache
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.csproj.CopyComplete
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.exe
+C:\Work\Projects\CSharp\WebCamFoto\WebCamFoto\obj\Debug\WebCamFoto.pdb

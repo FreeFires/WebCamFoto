@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using AForge;
 using AForge.Video;
 using AForge.Video.DirectShow;
+using System.Drawing.Imaging;
+using System.IO;
 
 namespace WebCamFoto
 {
@@ -51,29 +53,10 @@ namespace WebCamFoto
             imgWebCam.Image = bitmap;
         }
 
-        /*private void BtnSave_Click(object sender, EventArgs e)
+        private void BtnSave_Click(object sender, EventArgs e)
         {
-            if (imgForSave != null)
-            {
-                Bitmap imgSave = (Bitmap)bitmap.Clone();
-                String ActiveDir = AppDomain.CurrentDomain.BaseDirectory;
-                String filepath = System.IO.Path.Combine(ActiveDir, @"D://!Photo/");
-                if (!System.IO.Directory.Exists(filepath))
-                {
-                    System.IO.DirectoryInfo directory = System.IO.Directory.CreateDirectory(@"D://!Photo");
-                    String fileName = System.IO.Path.Combine(filepath, tbFIO.Text + @".jpeg");
-                    if (!System.IO.File.Exists(fileName))
-                    {
-                        imgSave.Save(fileName);
-                    }
-                }
-                imgSave.Dispose();
-            }
-            else
-            {
-                MessageBox.Show("Зафіксуйте фотографію!");
-            }
-        }*/
+                imgForSave.Image.Save(@"C:\!Photo\" + tbFIO.Text + ".jpeg", ImageFormat.Jpeg);   
+        }
 
         private void BtnPhotoImg_Click(object sender, EventArgs e)
         {
@@ -82,7 +65,10 @@ namespace WebCamFoto
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
-            if (cam.IsRunning) cam.Stop();
+            if (cam.IsRunning)
+            {
+                cam.Stop();
+            }
             this.Close();
         }
     }
